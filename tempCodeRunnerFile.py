@@ -9,5 +9,5 @@ plt.title('Sine Wave')
 plt.xlabel('X-axis')
 plt.ylabel('Y-axis')
 plt.grid()
-# Show the plot
 plt.show()
+save_path = 'sine_wave.png'
