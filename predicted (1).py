@@ -19,8 +19,6 @@ def get_detect_folders(base_path):
             })
 
     return folder_list
-    return folder_arr
-    return folder_list1
 
 
 def find_latest_folder(folder_data):
@@ -80,6 +78,8 @@ def main():
         print(f"File Path : {file_info['file_path']}")
         print(f"File Size : {file_info['file_size']} bytes")
         print("-" * 40)
+        print(f"File Name : {file_info['file_name']}")
+
 
 
 if __name__ == "__main__":
