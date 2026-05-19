@@ -14,3 +14,4 @@ save_path = 'sine_wave.png'
 plt.savefig(save_path)
 print(f'Plot saved to {save_path}')
 print('Plotting complete.')
+print('This is a test plot.')
