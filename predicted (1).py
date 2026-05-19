@@ -79,6 +79,7 @@ def main():
         print(f"File Size : {file_info['file_size']} bytes")
         print("-" * 40)
         print(f"File Name : {file_info['file_name']}")
+        print(f"File Path : {file_info['file_path']}")
 
 
 
