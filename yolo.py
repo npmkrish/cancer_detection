@@ -7,6 +7,7 @@ results = model.predict(source='skin cancer.v1i.yolov8/valid/images/ISIC_0034214
 print(results)
 
 model.export(format="onnx")
+model.export(format="engine")
 
 
 
