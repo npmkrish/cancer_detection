@@ -63,6 +63,7 @@ def main():
         return
 
     latest_folder = find_latest_folder(folders)
+    latest_folder = find_latest_folder(folders)
 
     print(f"Latest Folder: {latest_folder['name']}")
     print("-" * 10)     #print a separator line for better readability
