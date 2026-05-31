@@ -65,7 +65,7 @@ def main():
     latest_folder = find_latest_folder(folders)
 
     print(f"Latest Folder: {latest_folder['name']}")
-    print("-" * 40)
+    print("-" * 10)     #print a separator line for better readability
 
     files = get_files_from_folder(latest_folder["path"])
 
