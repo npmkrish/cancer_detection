@@ -82,8 +82,10 @@ def main():
         print(f"File Path : {file_info['file_path']}")
         print(f"File Size : {file_info['file_size']} bytes")
         print("-" * 40)
+        
 
 
 
 if __name__ == "__main__":
-    main()
+    main()           #main function to execute the script
+    
