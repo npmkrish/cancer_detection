@@ -9,7 +9,7 @@ print(results)
 model.export(format="onnx")
 model.export(format="engine")
 print("Model exported to ONNX and TensorRT formats successfully.")
-
+model.import(format="coreml")
 
 
 
