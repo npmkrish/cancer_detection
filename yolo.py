@@ -15,6 +15,7 @@ model.export(format="coreml")
 print("Model exported to CoreML format successfully.")
 results.show()  
 results.save()
+results.print()
 
 
 
