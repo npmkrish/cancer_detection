@@ -13,6 +13,8 @@ print("Model exported to ONNX and TensorRT formats successfully.")
 model.export(format="coreml")
 #model.export(format="torchscript")
 print("Model exported to CoreML format successfully.")
+results.show()  
+results.save()
 
 
 
