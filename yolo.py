@@ -18,7 +18,7 @@ results.save()
 results.print()
 results.xyxy[0]
 results.pandas().xyxy[0]
-
+results.crop(save=True)
 
 
 
