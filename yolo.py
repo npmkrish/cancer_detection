@@ -13,12 +13,7 @@ print("Model exported to ONNX and TensorRT formats successfully.")
 model.export(format="coreml")
 #model.export(format="torchscript")
 print("Model exported to CoreML format successfully.")
-results.show()  
-results.save()
-results.print()
-results.xyxy[0]
-results.pandas().xyxy[0]
-results.crop(save=True)
+
 
 
 
