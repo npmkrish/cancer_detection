@@ -16,6 +16,7 @@ print("Model exported to CoreML format successfully.")
 results.show()  
 results.save()
 results.print()
+results.xyxy[0]
 
 
 
