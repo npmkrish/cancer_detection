@@ -15,6 +15,7 @@ model.export(format="coreml")
 print("Model exported to CoreML format successfully.")
 print("Model exported to TorchScript format successfully.")
 print("Model exported to TensorRT format successfully.")
+print("Model exported to ONNX format successfully.")
 
 
 
