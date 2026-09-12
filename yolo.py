@@ -16,8 +16,6 @@ print("Model exported to CoreML format successfully.")
 print("Model exported to TorchScript format successfully.")
 print("Model exported to TensorRT format successfully.")
 
-model.export(format="tflite")
-print("Model exported to TFLite format successfully.")
 
 
 
