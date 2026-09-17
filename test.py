@@ -14,18 +14,6 @@ def plot_results(results):
         plt.axis('off')
         plt.show()
 
-def get_detect_folders(main_path):
-    folder_list = []
-    for item in os.listdir(main_path):
-        full_path = os.path.join(main_path, item)
-
-        if os.path.isdir(full_path):
-            folder_list.append({
-                "name": item,
-                "path": full_path,
-                "created_time": os.path.getctime(full_path)
-            })
-
     return folder_list            
     
 
