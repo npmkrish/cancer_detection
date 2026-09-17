@@ -23,6 +23,9 @@ def get_detect_folders(main_path):
                 "path": full_path,
                 "created_time": os.path.getctime(full_path)
             })
+def get_detect_folders(base_path):
+    full_path = os.path.join(base_path, "detect")
+     
 
     return folder_list            
     
