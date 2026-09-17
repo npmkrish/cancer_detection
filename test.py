@@ -12,7 +12,7 @@ def plot_results(results):
         plt.axis('off')
         plt.show()
 
-
+def get_detect_folders(main_path):
 
     return folder_list            
     
