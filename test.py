@@ -13,6 +13,8 @@ def plot_results(results):
         plt.show()
 
 def get_detect_folders(main_path):
+    folder_list = []
+    for item in os.listdir(main_path):
 
     return folder_list            
     
