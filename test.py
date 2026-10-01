@@ -14,9 +14,13 @@ def plot_results(results):
         plt.axis('off')
         plt.show()
 
-    return folder_list            
+    return folder_list
+def testcase(results):
+    for result in results:
+        plt.testcase(result.plot())
+                        
     
 
     
 
-#//!!
+#//!
