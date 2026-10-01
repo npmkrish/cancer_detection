@@ -15,10 +15,8 @@ def plot_results(results):
         plt.show()
 
     return folder_list
-def testcase(results):
-    for result in results:
-        plt.testcase(result.plot())
-                        
+
+
     
 
     
